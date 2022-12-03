@@ -3,16 +3,13 @@ int numberA = Convert.ToInt32(Console.ReadLine());
 int numberB = Convert.ToInt32(Console.ReadLine());
 if (numberA>numberB)
 {
-    Console.Write("Max-");
-    Console.Write(numberA);
-    Console.Write("Min-");
-    Console.Write(numberB);
+    Console.Write("Max-" + numberA);
+       Console.Write("Min-" + numberB);
+   
 
 }
 else
 {
-    Console.Write("Max-");
-    Console.Write(numberB);
-    Console.Write("Min-");
-    Console.Write(numberA);
+    Console.Write("Max-" + numberB);
+        Console.Write("Min-" + numberA);
 }
