@@ -1,15 +1,13 @@
-﻿Console.WriteLine("Ведите два числа: ");
-int numberA = Convert.ToInt32(Console.ReadLine());
-int numberB = Convert.ToInt32(Console.ReadLine());
-if (numberA>numberB)
-{
-    Console.Write("Max-" + numberA);
-       Console.Write("Min-" + numberB);
-   
+﻿Console.WriteLine("Введите два числа: ");
+            int numA = Convert.ToInt32(Console.ReadLine());
+            int numB = Convert.ToInt32(Console.ReadLine());
 
-}
-else
-{
-    Console.Write("Max-" + numberB);
-        Console.Write("Min-" + numberA);
-}
+            if (numA > numB)
+            {
+                Console.WriteLine("Max: " + numA + " Min: " + numB);
+            }
+            else
+            {
+                Console.WriteLine("Max: " + numB + " Min: " + numA);
+            }
+          
